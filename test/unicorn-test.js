@@ -39,7 +39,7 @@ describe('Unicorn', function() {
 
   it('should say sparklying stuff', function() {
     var unicorn = new Unicorn('Brenna');
-    assert.equal(unicorn.say  x  xx s('Wonderful!'), '**;* Wonderful! *;**');
-    assert.equal(unicorn.says('Batman has a great smile'), '**;* Batman has a great smile *;**');
+    assert.equal(unicorn.say('Wonderful!'), '**;* Wonderful! *;**');
+    assert.equal(unicorn.say('Batman has a great smile'), '**;* Batman has a great smile *;**');
   });
 });
